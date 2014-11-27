@@ -28,6 +28,7 @@
             android:layout_height="200dp"
             android:layout_centerVertical="true"
             android:gravity="center"
+            android:fontFamily="sans-serif-light"
             android:textSize="@dimen/time_number_text"/>
 
         <TextView
@@ -71,6 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:fontFamily="sans-serif-light"
                 android:background="@drawable/btn_circle_bg"
                 android:gravity="center"
                 android:text="@string/btn_start"
@@ -87,6 +89,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:fontFamily="sans-serif-light"
                 android:background="@drawable/btn_circle_bg"
                 android:gravity="center"
                 android:text="@string/btn_reset"
