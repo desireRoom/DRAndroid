@@ -2,7 +2,15 @@
 <resources>
 
     <string name="app_name">TimeLapse</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="menu_settings">Settings</string>
 
+    <!--main activity-->
+    <string name="preset_maxim_top">1.01365 = 37.8</string>
+    <string name="preset_maxim_bottom">0.99365 = 0.03</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_setting">Setting</string>
+
+    <string name="about_text">For my lost youth!</string>
 </resources>

@@ -11,24 +11,24 @@ import java.lang.ref.WeakReference;
  */
 public class DRWeakHandler extends Handler {
 
-    private WeakReference<DRIHander> mWeakRef;
+    private WeakReference<IHandler> mWeakRef;
 
-    public DRWeakHandler(DRIHander hander) {
-        mWeakRef = new WeakReference<DRIHander>(hander);
+    public DRWeakHandler(IHandler hander) {
+        mWeakRef = new WeakReference<IHandler>(hander);
     }
 
     @Override
     public void handleMessage(Message msg) {
         super.handleMessage(msg);
         if (mWeakRef != null) {
-            DRIHander handler = mWeakRef.get();
+            IHandler handler = mWeakRef.get();
             if (handler != null) {
                 handler.handleMessage(msg);
             }
         }
     }
 
-    public static interface DRIHander {
+    public static interface IHandler {
         public void handleMessage(Message msg);
     }
 }
