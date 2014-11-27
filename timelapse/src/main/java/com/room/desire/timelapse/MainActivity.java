@@ -5,18 +5,13 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.Message;
-import android.text.Spannable;
-import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 import android.text.style.AbsoluteSizeSpan;
-import android.text.style.ForegroundColorSpan;
 import android.text.style.SuperscriptSpan;
-import android.text.style.UnderlineSpan;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
@@ -31,10 +26,23 @@ public class MainActivity extends Activity implements DRWeakHandler.IHandler, Vi
 
     private long mStartTime;
     private int mDiffSec;
+    private Runnable mCountRunnable = new Runnable() {
+        @Override
+        public void run() {
+            if (mStartTime <= 0)
+                return;
+
+            long now = System.currentTimeMillis();
+            long diff = now - mStartTime;
+            int diffSec = (int) (diff / 1000);
+            setTimeNumber(diffSec);
+            mDiffSec = diffSec;
+
+            mHandler.postDelayed(this, 1000 - diff % 1000);
+        }
+    };
     private DRWeakHandler mHandler = new DRWeakHandler(this);
-
     private MainService.TimeLapseBinder mService;
-
     private ServiceConnection mConnection = new ServiceConnection() {
         @Override
         public void onServiceDisconnected(ComponentName name) {
@@ -205,22 +213,6 @@ public class MainActivity extends Activity implements DRWeakHandler.IHandler, Vi
         }
         mTimeNumberTV.setText(sb.toString());
     }
-
-    private Runnable mCountRunnable = new Runnable() {
-        @Override
-        public void run() {
-            if (mStartTime <= 0)
-                return;
-
-            long now = System.currentTimeMillis();
-            long diff = now - mStartTime;
-            int diffSec = (int) (diff / 1000);
-            setTimeNumber(diffSec);
-            mDiffSec = diffSec;
-
-            mHandler.postDelayed(this, 1000 - diff % 1000);
-        }
-    };
 
     private void startTick() {
         long start = System.currentTimeMillis();

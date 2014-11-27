@@ -8,10 +8,9 @@ import android.content.SharedPreferences;
  * Created by desire on 14-10-15.
  */
 public class TLSPUtils {
-    private static final String SP_FILE_NAME = "time_lapse";
-
     public static final String STARING_TIME = "start_time";
     public static final String Diff_SEC = "diff_sec";
+    private static final String SP_FILE_NAME = "time_lapse";
 
     private static SharedPreferences getSP(Context c) {
         return c.getSharedPreferences(SP_FILE_NAME, Activity.MODE_PRIVATE);
@@ -48,7 +47,7 @@ public class TLSPUtils {
     }
 
     public static void setDiffSec(Context c, int diffSec) {
-        if (c == null) return ;
+        if (c == null) return;
 
         SharedPreferences.Editor editor = getSP(c).edit();
         editor.putInt(Diff_SEC, diffSec);

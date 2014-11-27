@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">时间流逝</string>
+    <string name="menu_settings">设置</string>
+
+    <!--main activity-->
+    <string name="preset_maxim_top">1.01365 = 37.8</string>
+    <string name="preset_maxim_bottom">0.99365 = 0.03</string>
+    <string name="btn_start">启动</string>
+    <string name="btn_stop">暂停</string>
+    <string name="btn_reset">归零</string>
+    <string name="btn_setting">设置</string>
+
+    <string name="about_text">集中精力</string>
+
+</resources>
