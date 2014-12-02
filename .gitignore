@@ -34,3 +34,6 @@ out
 
 # Mac os
 .DS_Store
+
+# Private
+timelapse/

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="maxim_top_text">30sp</dimen>
-    <dimen name="maxim_bottom_text">30sp</dimen>
-    <dimen name="time_number_text">70sp</dimen>
-</resources>
