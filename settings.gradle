@@ -1,1 +1,1 @@
-include ':app', ':common', ':timelapse'
+include ':app', ':common', ':timelapse', ':word'
