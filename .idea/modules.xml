@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DRAndroid.iml" filepath="$PROJECT_DIR$/DRAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccmanual/ccmanual.iml" filepath="$PROJECT_DIR$/ccmanual/ccmanual.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/timelapse/timelapse.iml" filepath="$PROJECT_DIR$/timelapse/timelapse.iml" />
       <module fileurl="file://$PROJECT_DIR$/word/word.iml" filepath="$PROJECT_DIR$/word/word.iml" />

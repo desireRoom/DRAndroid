@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ccm_six_tech_strs">
+        <item>俯卧撑</item>
+        <item>举腿</item>
+        <item>引体向上</item>
+        <item>深蹲</item>
+        <item>倒立撑</item>
+        <item>桥</item>
+    </string-array>
+
+    <string-array name="ccm_push_up_strs">
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>5.</item>
+        <item>6.</item>
+        <item>7.</item>
+        <item>8.</item>
+        <item>9.</item>
+        <item>10.</item>
+    </string-array>
+
+    <string-array name="ccm_leg_raise_strs">
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>5.</item>
+        <item>6.</item>
+        <item>7.</item>
+        <item>8.</item>
+        <item>9.</item>
+        <item>10.</item>
+    </string-array>
+
+    <string-array name="ccm_pull_up_strs">
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>5.</item>
+        <item>6.</item>
+        <item>7.</item>
+        <item>8.</item>
+        <item>9.</item>
+        <item>10.</item>
+    </string-array>
+
+    <string-array name="ccm_deep_aquat_strs">
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>5.</item>
+        <item>6.</item>
+        <item>7.</item>
+        <item>8.</item>
+        <item>9.</item>
+        <item>10.</item>
+    </string-array>
+
+    <string-array name="ccm_on_hold_strs">
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>5.</item>
+        <item>6.</item>
+        <item>7.</item>
+        <item>8.</item>
+        <item>9.</item>
+        <item>10.</item>
+    </string-array>
+
+    <string-array name="ccm_bridge_strs">
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>5.</item>
+        <item>6.</item>
+        <item>7.</item>
+        <item>8.</item>
+        <item>9.</item>
+        <item>10.</item>
+    </string-array>
+
+</resources>
