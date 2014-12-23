@@ -18,9 +18,10 @@ import android.widget.TextView;
 /**
  * Created by desire on 14/12/15.
  */
-public class MainContentFragment extends Fragment implements View.OnClickListener {
+public class ContentFragment extends Fragment implements View.OnClickListener {
 
     private TextView mTitleTv;
+    private View mDrawerBtn, mSettingBtn;
 
     private TextView mStartStopBtn;
 
@@ -34,7 +35,7 @@ public class MainContentFragment extends Fragment implements View.OnClickListene
 
         @Override
         public void onServiceDisconnected(ComponentName name) {
-
+            mBinder = null;
         }
     };
 
@@ -50,6 +51,7 @@ public class MainContentFragment extends Fragment implements View.OnClickListene
         mTitleTv.setText("Title");
         mStartStopBtn = (TextView) view.findViewById(R.id.content_tick_btn);
         mStartStopBtn.setOnClickListener(this);
+        // TODO need add drawer btn & setting btn on click listener.
         return view;
     }
 
@@ -90,6 +92,10 @@ public class MainContentFragment extends Fragment implements View.OnClickListene
                 }
                 break;
         }
+    }
+
+    public void setContent(int groupId, int childId) {
+        mTitleTv.setText("-- " + groupId + " - " + childId + " --");
     }
 
     private void setPlayStatus(boolean isPlaying) {

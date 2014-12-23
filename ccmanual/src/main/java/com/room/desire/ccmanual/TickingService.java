@@ -10,18 +10,29 @@ import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
 
+import java.io.File;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by desire on 14/12/15.
  */
 public class TickingService extends Service implements MediaPlayer.OnPreparedListener, AudioManager.OnAudioFocusChangeListener {
 
-    private static final String TICKING_AUDIO_PATH = "";
+    private static final String TICKING_AUDIO_NAME = "cache.mp3";
+    private static String sTickingAudioPath;
     private Binder mBinder;
     private MediaPlayer mMediaPlayer;
 
     @Override
     public void onCreate() {
         super.onCreate();
+        File audio = new File(getFilesDir(), TICKING_AUDIO_NAME);
+        sTickingAudioPath = audio.getAbsolutePath();
+        if (!audio.exists()) {
+            buildVoice(5);
+        }
     }
 
     @Override
@@ -93,6 +104,11 @@ public class TickingService extends Service implements MediaPlayer.OnPreparedLis
         }
     }
 
+    private void buildVoice(int end) {
+        List<InputStream> list = new ArrayList<InputStream>();
+        //TODO build voice file
+    }
+
     private void startPlay() {
         if (!isPlaying()) {
             initMedia();
@@ -146,7 +162,7 @@ public class TickingService extends Service implements MediaPlayer.OnPreparedLis
 //                player.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
 //                afd.close();
 //            }
-            player.setDataSource(TICKING_AUDIO_PATH);
+            player.setDataSource(sTickingAudioPath);
         } catch (Exception e) {
             releaseMedia();
         }

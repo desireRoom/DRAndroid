@@ -4,12 +4,15 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.widget.DrawerLayout;
+import android.util.Log;
 
 
-public class MainActivity extends FragmentActivity {
+public class MainActivity extends FragmentActivity implements DrawerFragment.OnDrawerChildSelected {
+    private DrawerLayout mDrawer;
 
-    private MainContentFragment mContentFragment;
-    private MainListFragment mListFragment;
+    private ContentFragment mContentFragment;
+    private DrawerFragment mListFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +21,18 @@ public class MainActivity extends FragmentActivity {
 
         FragmentManager manager = getSupportFragmentManager();
         FragmentTransaction transaction = manager.beginTransaction();
-        mContentFragment = new MainContentFragment();
+        mContentFragment = new ContentFragment();
         transaction.replace(R.id.main_content_container, mContentFragment);
-        mListFragment = new MainListFragment();
+        mListFragment = new DrawerFragment();
         transaction.replace(R.id.main_drawer_container, mListFragment);
         transaction.commit();
+
+        mDrawer = (DrawerLayout) findViewById(R.id.main_drawer_layout);
     }
 
+    @Override
+    public void onDrawerChildSelected(int groupId, int childId) {
+        mContentFragment.setContent(groupId, childId);
+        mDrawer.closeDrawers();
+    }
 }
