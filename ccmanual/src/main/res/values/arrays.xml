@@ -2,90 +2,166 @@
 <resources>
 
     <string-array name="ccm_six_tech_strs">
+        <item>训练计划</item>
         <item>俯卧撑</item>
-        <item>举腿</item>
-        <item>引体向上</item>
         <item>深蹲</item>
-        <item>倒立撑</item>
+        <item>引体向上</item>
+        <item>举腿</item>
         <item>桥</item>
+        <item>倒立撑</item>
+    </string-array>
+
+    <string-array name="ccm_plan_strs">
+        <item>1.初试身手</item>
+        <item>2.渐入佳境</item>
+        <item>3.炉火纯青</item>
+        <item>4.闭关修炼</item>
+        <item>5.登峰造极</item>
     </string-array>
 
     <string-array name="ccm_push_up_strs">
-        <item>1.</item>
-        <item>2.</item>
-        <item>3.</item>
-        <item>4.</item>
-        <item>5.</item>
-        <item>6.</item>
-        <item>7.</item>
-        <item>8.</item>
-        <item>9.</item>
-        <item>10.</item>
+        <item>0.注意事项</item>
+        <item>1.墙壁俯卧撑</item>
+        <item>2.上斜俯卧撑</item>
+        <item>3.膝盖俯卧撑</item>
+        <item>4.半俯卧撑</item>
+        <item>5.标准俯卧撑</item>
+        <item>6.窄距俯卧撑</item>
+        <item>7.偏重俯卧撑</item>
+        <item>8.单臂半俯卧撑</item>
+        <item>9.杠杆俯卧撑</item>
+        <item>10.单臂俯卧撑</item>
     </string-array>
 
-    <string-array name="ccm_leg_raise_strs">
-        <item>1.</item>
-        <item>2.</item>
-        <item>3.</item>
-        <item>4.</item>
-        <item>5.</item>
-        <item>6.</item>
-        <item>7.</item>
-        <item>8.</item>
-        <item>9.</item>
-        <item>10.</item>
+    <string-array name="ccm_deep_squat_strs">
+        <item>0.注意事项</item>
+        <item>1.肩倒立深蹲</item>
+        <item>2.折刀深蹲</item>
+        <item>3.支撑深蹲</item>
+        <item>4.半深蹲</item>
+        <item>5.标准深蹲</item>
+        <item>6.窄距深蹲</item>
+        <item>7.偏重深蹲</item>
+        <item>8.单腿半深蹲</item>
+        <item>9.单腿辅助深蹲</item>
+        <item>10.单腿深蹲</item>
     </string-array>
 
     <string-array name="ccm_pull_up_strs">
-        <item>1.</item>
-        <item>2.</item>
-        <item>3.</item>
-        <item>4.</item>
-        <item>5.</item>
-        <item>6.</item>
-        <item>7.</item>
-        <item>8.</item>
-        <item>9.</item>
-        <item>10.</item>
+        <item>0.注意事项</item>
+        <item>1.垂直引体</item>
+        <item>2.水平引体向上</item>
+        <item>3.折刀引体向上</item>
+        <item>4.半引体向上</item>
+        <item>5.标准引体向上</item>
+        <item>6.窄距引体向上</item>
+        <item>7.偏重引体向上</item>
+        <item>8.单臂半引体向上</item>
+        <item>9.单臂辅助引体向上</item>
+        <item>10.单臂引体向上</item>
     </string-array>
 
-    <string-array name="ccm_deep_aquat_strs">
-        <item>1.</item>
-        <item>2.</item>
-        <item>3.</item>
-        <item>4.</item>
-        <item>5.</item>
-        <item>6.</item>
-        <item>7.</item>
-        <item>8.</item>
-        <item>9.</item>
-        <item>10.</item>
-    </string-array>
-
-    <string-array name="ccm_on_hold_strs">
-        <item>1.</item>
-        <item>2.</item>
-        <item>3.</item>
-        <item>4.</item>
-        <item>5.</item>
-        <item>6.</item>
-        <item>7.</item>
-        <item>8.</item>
-        <item>9.</item>
-        <item>10.</item>
+    <string-array name="ccm_leg_raise_strs">
+        <item>0.注意事项</item>
+        <item>1.坐姿屈膝</item>
+        <item>2.平卧抬膝</item>
+        <item>3.平卧屈举腿</item>
+        <item>4.平卧蛙举腿</item>
+        <item>5.平卧直举腿</item>
+        <item>6.悬垂屈膝</item>
+        <item>7.悬垂屈举腿</item>
+        <item>8.悬垂蛙举腿</item>
+        <item>9.悬垂半举腿</item>
+        <item>10.悬垂直举腿</item>
     </string-array>
 
     <string-array name="ccm_bridge_strs">
-        <item>1.</item>
-        <item>2.</item>
-        <item>3.</item>
-        <item>4.</item>
-        <item>5.</item>
-        <item>6.</item>
-        <item>7.</item>
-        <item>8.</item>
-        <item>9.</item>
-        <item>10.</item>
+        <item>0.注意事项</item>
+        <item>1.短桥</item>
+        <item>2.直桥</item>
+        <item>3.高低桥</item>
+        <item>4.顶桥</item>
+        <item>5.半桥</item>
+        <item>6.标准桥</item>
+        <item>7.下行桥</item>
+        <item>8.上行桥</item>
+        <item>9.台桥</item>
+        <item>10.铁板桥</item>
+    </string-array>
+
+    <string-array name="ccm_on_hold_strs">
+        <item>0.注意事项</item>
+        <item>1.靠墙顶立</item>
+        <item>2.乌鸦式</item>
+        <item>3.靠墙倒立</item>
+        <item>4.半倒立撑</item>
+        <item>5.标准倒立撑</item>
+        <item>6.窄距倒立撑</item>
+        <item>7.偏重倒立撑</item>
+        <item>8.单臂半倒立撑</item>
+        <item>9.杠杆倒立撑</item>
+        <item>10.单臂倒立撑</item>
+    </string-array>
+
+    <string-array name="ccm_push_up_content_1">
+        <item>@string/push_up_1_action</item>
+        <item>@string/push_up_1_analysis</item>
+        <item>@string/push_up_1_target</item>
+        <item>@string/push_up_1_course</item>
+    </string-array>
+    <string-array name="ccm_push_up_content_2">
+        <item>@string/push_up_2_action</item>
+        <item>@string/push_up_2_analysis</item>
+        <item>@string/push_up_2_target</item>
+        <item>@string/push_up_2_course</item>
+    </string-array>
+    <string-array name="ccm_push_up_content_3">
+        <item>@string/push_up_3_action</item>
+        <item>@string/push_up_3_analysis</item>
+        <item>@string/push_up_3_target</item>
+        <item>@string/push_up_3_course</item>
+    </string-array>
+    <string-array name="ccm_push_up_content_4">
+        <item>@string/push_up_4_action</item>
+        <item>@string/push_up_4_analysis</item>
+        <item>@string/push_up_4_target</item>
+        <item>@string/push_up_4_course</item>
+    </string-array>
+    <string-array name="ccm_push_up_content_5">
+        <item>@string/push_up_5_action</item>
+        <item>@string/push_up_5_analysis</item>
+        <item>@string/push_up_5_target</item>
+        <item>@string/push_up_5_course</item>
+    </string-array>
+    <string-array name="ccm_push_up_content_6">
+        <item>@string/push_up_6_action</item>
+        <item>@string/push_up_6_analysis</item>
+        <item>@string/push_up_6_target</item>
+        <item>@string/push_up_6_course</item>
+    </string-array>
+    <string-array name="ccm_push_up_content_7">
+        <item>@string/push_up_7_action</item>
+        <item>@string/push_up_7_analysis</item>
+        <item>@string/push_up_7_target</item>
+        <item>@string/push_up_7_course</item>
+    </string-array>
+    <string-array name="ccm_push_up_content_8">
+        <item>@string/push_up_8_action</item>
+        <item>@string/push_up_8_analysis</item>
+        <item>@string/push_up_8_target</item>
+        <item>@string/push_up_8_course</item>
+    </string-array>
+    <string-array name="ccm_push_up_content_9">
+        <item>@string/push_up_9_action</item>
+        <item>@string/push_up_9_analysis</item>
+        <item>@string/push_up_9_target</item>
+        <item>@string/push_up_9_course</item>
+    </string-array>
+    <string-array name="ccm_push_up_content_10">
+        <item>@string/push_up_10_action</item>
+        <item>@string/push_up_10_analysis</item>
+        <item>@string/push_up_10_target</item>
+        <item>@string/push_up_10_course</item>
     </string-array>
 
 </resources>

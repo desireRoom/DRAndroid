@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -34,12 +34,126 @@
 
     </LinearLayout>
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <WebView
+            android:id="@+id/ccm_other_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+        </WebView>
+
+        <ScrollView
+            android:id="@+id/ccm_ten_content_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ccm_ten_title_padding"
+                    android:textSize="@dimen/ccm_ten_title_tv_size"
+                    android:textColor="@color/black"
+                    android:text="@string/content_title_action"/>
+
+                <TextView
+                    android:id="@+id/ccm_ten_action_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/ccm_ten_content_padding"
+                    android:paddingRight="@dimen/ccm_ten_content_padding"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ccm_ten_content_tv_size"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ccm_ten_title_padding">
+
+                    <ImageView
+                        android:id="@+id/ccm_ten_img_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:id="@+id/ccm_ten_img_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ccm_ten_title_padding"
+                    android:textSize="@dimen/ccm_ten_title_tv_size"
+                    android:textColor="@color/black"
+                    android:text="@string/content_title_analysis"/>
+
+                <TextView
+                    android:id="@+id/ccm_ten_analysis_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/ccm_ten_content_padding"
+                    android:paddingRight="@dimen/ccm_ten_content_padding"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ccm_ten_content_tv_size"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ccm_ten_title_padding"
+                    android:textSize="@dimen/ccm_ten_title_tv_size"
+                    android:textColor="@color/black"
+                    android:text="@string/content_title_target"/>
+
+                <TextView
+                    android:id="@+id/ccm_ten_target_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/ccm_ten_content_padding"
+                    android:paddingRight="@dimen/ccm_ten_content_padding"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ccm_ten_content_tv_size"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/ccm_ten_title_padding"
+                    android:textSize="@dimen/ccm_ten_title_tv_size"
+                    android:textColor="@color/black"
+                    android:text="@string/content_title_course"/>
+
+                <TextView
+                    android:id="@+id/ccm_ten_course_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/ccm_ten_content_padding"
+                    android:paddingRight="@dimen/ccm_ten_content_padding"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/ccm_ten_content_tv_size"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </FrameLayout>
+
     <TextView
         android:id="@+id/content_tick_btn"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
         android:gravity="center"
         android:background="@color/black_50"/>
 
-</RelativeLayout>
+</LinearLayout>

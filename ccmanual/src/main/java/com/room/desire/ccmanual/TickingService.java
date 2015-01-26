@@ -144,7 +144,6 @@ public class TickingService extends Service implements MediaPlayer.OnPreparedLis
             });
 
             setDataSourceFromResource(getResources(), mMediaPlayer);
-            mMediaPlayer.setLooping(true);
         }
     }
 
@@ -163,6 +162,7 @@ public class TickingService extends Service implements MediaPlayer.OnPreparedLis
 //                afd.close();
 //            }
             player.setDataSource(sTickingAudioPath);
+            player.setLooping(true);
         } catch (Exception e) {
             releaseMedia();
         }

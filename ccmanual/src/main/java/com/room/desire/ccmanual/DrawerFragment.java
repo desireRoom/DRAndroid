@@ -6,7 +6,6 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.database.DataSetObserver;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,7 +33,7 @@ public class DrawerFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.list_fragment, container, false);
 
         mList = (ExpandableListView) view.findViewById(R.id.drawer_expand_list);
@@ -56,17 +55,18 @@ public class DrawerFragment extends Fragment {
     private static class DrawerAdapter implements ExpandableListAdapter {
         private Context dContext;
         private String[] dGroups;
-        private String[][] dChildren = new String[6][];
+        private String[][] dChildren = new String[7][];
 
         private DrawerAdapter(Context context) {
             Resources res = context.getResources();
             dGroups = res.getStringArray(R.array.ccm_six_tech_strs);
-            dChildren[0] = res.getStringArray(R.array.ccm_push_up_strs);
-            dChildren[1] = res.getStringArray(R.array.ccm_leg_raise_strs);
-            dChildren[2] = res.getStringArray(R.array.ccm_pull_up_strs);
-            dChildren[3] = res.getStringArray(R.array.ccm_deep_aquat_strs);
-            dChildren[4] = res.getStringArray(R.array.ccm_on_hold_strs);
+            dChildren[0] = res.getStringArray(R.array.ccm_plan_strs);
+            dChildren[1] = res.getStringArray(R.array.ccm_push_up_strs);
+            dChildren[2] = res.getStringArray(R.array.ccm_deep_squat_strs);
+            dChildren[3] = res.getStringArray(R.array.ccm_pull_up_strs);
+            dChildren[4] = res.getStringArray(R.array.ccm_leg_raise_strs);
             dChildren[5] = res.getStringArray(R.array.ccm_bridge_strs);
+            dChildren[6] = res.getStringArray(R.array.ccm_on_hold_strs);
             dContext = context;
         }
 
