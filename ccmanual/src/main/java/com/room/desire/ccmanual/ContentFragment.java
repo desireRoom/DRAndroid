@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 /**
@@ -27,7 +28,7 @@ public class ContentFragment extends Fragment implements View.OnClickListener {
 
     private TextView mTitleTv;
     private View mDrawerBtn, mSettingBtn;
-    private View mTenContainer;
+    private ScrollView mTenContainer;
     private WebView mOtherContainer;
     private TextView mTenActionTv, mTenAnalysisTv, mTenTargetTv, mTenCourseTv;
     private ImageView mTenImg1, mTenImg2;
@@ -69,7 +70,7 @@ public class ContentFragment extends Fragment implements View.OnClickListener {
         mTitleTv.setText("Title");
         mStartStopBtn = (TextView) view.findViewById(R.id.content_tick_btn);
         mStartStopBtn.setOnClickListener(this);
-        mTenContainer = view.findViewById(R.id.ccm_ten_content_container);
+        mTenContainer = (ScrollView) view.findViewById(R.id.ccm_ten_content_container);
         mOtherContainer = (WebView) view.findViewById(R.id.ccm_other_container);
         mTenActionTv = (TextView) view.findViewById(R.id.ccm_ten_action_content);
         mTenAnalysisTv = (TextView) view.findViewById(R.id.ccm_ten_analysis_content);
@@ -150,6 +151,23 @@ public class ContentFragment extends Fragment implements View.OnClickListener {
     }
 
     private void showPlanView(int child) {
+        switch (child) {
+            case 0:
+                showOtherContent("file:///android_asset/plan/1.html");
+                break;
+            case 1:
+                showOtherContent("file:///android_asset/plan/2.html");
+                break;
+            case 2:
+                showOtherContent("file:///android_asset/plan/3.html");
+                break;
+            case 3:
+                showOtherContent("file:///android_asset/plan/4.html");
+                break;
+            case 4:
+                showOtherContent("file:///android_asset/plan/5.html");
+                break;
+        }
 
     }
 
@@ -231,6 +249,8 @@ public class ContentFragment extends Fragment implements View.OnClickListener {
 
             mTenImg1.setImageResource(imgRes1);
             mTenImg2.setImageResource(imgRes2);
+
+            mTenContainer.scrollTo(0, 0);
         }
     }
 
