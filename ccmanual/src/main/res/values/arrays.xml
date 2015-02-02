@@ -164,4 +164,65 @@
         <item>@string/push_up_10_course</item>
     </string-array>
 
+    <string-array name="ccm_leg_raise_content_1">
+        <item>@string/leg_raise_1_action</item>
+        <item>@string/leg_raise_1_analysis</item>
+        <item>@string/leg_raise_1_target</item>
+        <item>@string/leg_raise_1_course</item>
+    </string-array>
+    <string-array name="ccm_leg_raise_content_2">
+        <item>@string/leg_raise_2_action</item>
+        <item>@string/leg_raise_2_analysis</item>
+        <item>@string/leg_raise_2_target</item>
+        <item>@string/leg_raise_2_course</item>
+    </string-array>
+    <string-array name="ccm_leg_raise_content_3">
+        <item>@string/leg_raise_3_action</item>
+        <item>@string/leg_raise_3_analysis</item>
+        <item>@string/leg_raise_3_target</item>
+        <item>@string/leg_raise_3_course</item>
+    </string-array>
+    <string-array name="ccm_leg_raise_content_4">
+        <item>@string/leg_raise_4_action</item>
+        <item>@string/leg_raise_4_analysis</item>
+        <item>@string/leg_raise_4_target</item>
+        <item>@string/leg_raise_4_course</item>
+    </string-array>
+    <string-array name="ccm_leg_raise_content_5">
+        <item>@string/leg_raise_5_action</item>
+        <item>@string/leg_raise_5_analysis</item>
+        <item>@string/leg_raise_5_target</item>
+        <item>@string/leg_raise_5_course</item>
+    </string-array>
+    <string-array name="ccm_leg_raise_content_6">
+        <item>@string/leg_raise_6_action</item>
+        <item>@string/leg_raise_6_analysis</item>
+        <item>@string/leg_raise_6_target</item>
+        <item>@string/leg_raise_6_course</item>
+    </string-array>
+    <string-array name="ccm_leg_raise_content_7">
+        <item>@string/leg_raise_7_action</item>
+        <item>@string/leg_raise_7_analysis</item>
+        <item>@string/leg_raise_7_target</item>
+        <item>@string/leg_raise_7_course</item>
+    </string-array>
+    <string-array name="ccm_leg_raise_content_8">
+        <item>@string/leg_raise_8_action</item>
+        <item>@string/leg_raise_8_analysis</item>
+        <item>@string/leg_raise_8_target</item>
+        <item>@string/leg_raise_8_course</item>
+    </string-array>
+    <string-array name="ccm_leg_raise_content_9">
+        <item>@string/leg_raise_9_action</item>
+        <item>@string/leg_raise_9_analysis</item>
+        <item>@string/leg_raise_9_target</item>
+        <item>@string/leg_raise_9_course</item>
+    </string-array>
+    <string-array name="ccm_leg_raise_content_10">
+        <item>@string/leg_raise_10_action</item>
+        <item>@string/leg_raise_10_analysis</item>
+        <item>@string/leg_raise_10_target</item>
+        <item>@string/leg_raise_10_course</item>
+    </string-array>
+
 </resources>
