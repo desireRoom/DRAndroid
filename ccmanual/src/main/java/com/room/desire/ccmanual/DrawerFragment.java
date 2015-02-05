@@ -39,6 +39,17 @@ public class DrawerFragment extends Fragment {
         mList = (ExpandableListView) view.findViewById(R.id.drawer_expand_list);
         mAdapter = new DrawerAdapter(getActivity());
         mList.setAdapter(mAdapter);
+        mList.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
+            @Override
+            public void onGroupExpand(int groupPosition) {
+                int count = mAdapter.getGroupCount();
+                for (int i = 0; i < count; i++) {
+                    if (i != groupPosition) {
+                        mList.collapseGroup(i);
+                    }
+                }
+            }
+        });
         mList.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {

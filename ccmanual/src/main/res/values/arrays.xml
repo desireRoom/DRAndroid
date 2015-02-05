@@ -103,6 +103,7 @@
         <item>10.单臂倒立撑</item>
     </string-array>
 
+    <!-- 俯卧撑 -->
     <string-array name="ccm_push_up_content_1">
         <item>@string/push_up_1_action</item>
         <item>@string/push_up_1_analysis</item>
@@ -164,6 +165,69 @@
         <item>@string/push_up_10_course</item>
     </string-array>
 
+    <!-- 引体向上 -->
+    <string-array name="ccm_pull_up_content_1">
+        <item>@string/pull_up_1_action</item>
+        <item>@string/pull_up_1_analysis</item>
+        <item>@string/pull_up_1_target</item>
+        <item>@string/pull_up_1_course</item>
+    </string-array>
+    <string-array name="ccm_pull_up_content_2">
+        <item>@string/pull_up_1_action</item>
+        <item>@string/pull_up_1_analysis</item>
+        <item>@string/pull_up_1_target</item>
+        <item>@string/pull_up_1_course</item>
+    </string-array>
+    <string-array name="ccm_pull_up_content_3">
+        <item>@string/pull_up_1_action</item>
+        <item>@string/pull_up_1_analysis</item>
+        <item>@string/pull_up_1_target</item>
+        <item>@string/pull_up_1_course</item>
+    </string-array>
+    <string-array name="ccm_pull_up_content_4">
+        <item>@string/pull_up_1_action</item>
+        <item>@string/pull_up_1_analysis</item>
+        <item>@string/pull_up_1_target</item>
+        <item>@string/pull_up_1_course</item>
+    </string-array>
+    <string-array name="ccm_pull_up_content_5">
+        <item>@string/pull_up_1_action</item>
+        <item>@string/pull_up_1_analysis</item>
+        <item>@string/pull_up_1_target</item>
+        <item>@string/pull_up_1_course</item>
+    </string-array>
+    <string-array name="ccm_pull_up_content_6">
+        <item>@string/pull_up_1_action</item>
+        <item>@string/pull_up_1_analysis</item>
+        <item>@string/pull_up_1_target</item>
+        <item>@string/pull_up_1_course</item>
+    </string-array>
+    <string-array name="ccm_pull_up_content_7">
+        <item>@string/pull_up_1_action</item>
+        <item>@string/pull_up_1_analysis</item>
+        <item>@string/pull_up_1_target</item>
+        <item>@string/pull_up_1_course</item>
+    </string-array>
+    <string-array name="ccm_pull_up_content_8">
+        <item>@string/pull_up_1_action</item>
+        <item>@string/pull_up_1_analysis</item>
+        <item>@string/pull_up_1_target</item>
+        <item>@string/pull_up_1_course</item>
+    </string-array>
+    <string-array name="ccm_pull_up_content_9">
+        <item>@string/pull_up_1_action</item>
+        <item>@string/pull_up_1_analysis</item>
+        <item>@string/pull_up_1_target</item>
+        <item>@string/pull_up_1_course</item>
+    </string-array>
+    <string-array name="ccm_pull_up_content_10">
+        <item>@string/pull_up_1_action</item>
+        <item>@string/pull_up_1_analysis</item>
+        <item>@string/pull_up_1_target</item>
+        <item>@string/pull_up_1_course</item>
+    </string-array>
+
+    <!-- 举腿 -->
     <string-array name="ccm_leg_raise_content_1">
         <item>@string/leg_raise_1_action</item>
         <item>@string/leg_raise_1_analysis</item>

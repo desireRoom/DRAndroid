@@ -214,6 +214,41 @@ public class ContentFragment extends Fragment implements View.OnClickListener {
     }
 
     private void showPullUpView(int child) {
+        switch (child) {
+            case 0:
+                showOtherContent("file:///android_asset/all/pull_up.html");
+                break;
+            case 1:
+                showTenContent(R.array.ccm_pull_up_content_1, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 2:
+                showTenContent(R.array.ccm_pull_up_content_2, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 3:
+                showTenContent(R.array.ccm_pull_up_content_3, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 4:
+                showTenContent(R.array.ccm_pull_up_content_4, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 5:
+                showTenContent(R.array.ccm_pull_up_content_5, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 6:
+                showTenContent(R.array.ccm_pull_up_content_6, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 7:
+                showTenContent(R.array.ccm_pull_up_content_7, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 8:
+                showTenContent(R.array.ccm_pull_up_content_8, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 9:
+                showTenContent(R.array.ccm_pull_up_content_9, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 10:
+                showTenContent(R.array.ccm_pull_up_content_10, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+        }
 
     }
 
