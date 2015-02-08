@@ -210,6 +210,41 @@ public class ContentFragment extends Fragment implements View.OnClickListener {
     }
 
     private void showDeepSquatView(int child) {
+        switch (child) {
+            case 0:
+                showOtherContent("file:///android_asset/all/deep_squat.html");
+                break;
+            case 1:
+                showTenContent(R.array.ccm_deep_squat_content_1, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 2:
+                showTenContent(R.array.ccm_deep_squat_content_2, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 3:
+                showTenContent(R.array.ccm_deep_squat_content_3, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 4:
+                showTenContent(R.array.ccm_deep_squat_content_4, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 5:
+                showTenContent(R.array.ccm_deep_squat_content_5, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 6:
+                showTenContent(R.array.ccm_deep_squat_content_6, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 7:
+                showTenContent(R.array.ccm_deep_squat_content_7, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 8:
+                showTenContent(R.array.ccm_deep_squat_content_8, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 9:
+                showTenContent(R.array.ccm_deep_squat_content_9, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 10:
+                showTenContent(R.array.ccm_deep_squat_content_10, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+        }
 
     }
 
@@ -292,10 +327,80 @@ public class ContentFragment extends Fragment implements View.OnClickListener {
     }
 
     private void showBridgeView(int child) {
+        switch (child) {
+            case 0:
+                showOtherContent("file:///android_asset/all/bridge.html");
+                break;
+            case 1:
+                showTenContent(R.array.ccm_bridge_content_1, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 2:
+                showTenContent(R.array.ccm_bridge_content_2, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 3:
+                showTenContent(R.array.ccm_bridge_content_3, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 4:
+                showTenContent(R.array.ccm_bridge_content_4, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 5:
+                showTenContent(R.array.ccm_bridge_content_5, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 6:
+                showTenContent(R.array.ccm_bridge_content_6, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 7:
+                showTenContent(R.array.ccm_bridge_content_7, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 8:
+                showTenContent(R.array.ccm_bridge_content_8, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 9:
+                showTenContent(R.array.ccm_bridge_content_9, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 10:
+                showTenContent(R.array.ccm_bridge_content_10, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+        }
 
     }
 
     private void showOnHoldView(int child) {
+        switch (child) {
+            case 0:
+                showOtherContent("file:///android_asset/all/on_hold.html");
+                break;
+            case 1:
+                showTenContent(R.array.ccm_on_hold_content_1, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 2:
+                showTenContent(R.array.ccm_on_hold_content_2, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 3:
+                showTenContent(R.array.ccm_on_hold_content_3, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 4:
+                showTenContent(R.array.ccm_on_hold_content_4, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 5:
+                showTenContent(R.array.ccm_on_hold_content_5, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 6:
+                showTenContent(R.array.ccm_on_hold_content_6, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 7:
+                showTenContent(R.array.ccm_on_hold_content_7, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 8:
+                showTenContent(R.array.ccm_on_hold_content_8, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 9:
+                showTenContent(R.array.ccm_on_hold_content_9, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+            case 10:
+                showTenContent(R.array.ccm_on_hold_content_10, R.drawable.ic_launcher, R.drawable.ic_launcher);
+                break;
+        }
 
     }
 

@@ -165,6 +165,68 @@
         <item>@string/push_up_10_course</item>
     </string-array>
 
+    <!-- 深蹲 -->
+    <string-array name="ccm_deep_squat_content_1">
+        <item>@string/deep_squat_1_action</item>
+        <item>@string/deep_squat_1_analysis</item>
+        <item>@string/deep_squat_1_target</item>
+        <item>@string/deep_squat_1_course</item>
+    </string-array>
+    <string-array name="ccm_deep_squat_content_2">
+        <item>@string/deep_squat_2_action</item>
+        <item>@string/deep_squat_2_analysis</item>
+        <item>@string/deep_squat_2_target</item>
+        <item>@string/deep_squat_2_course</item>
+    </string-array>
+    <string-array name="ccm_deep_squat_content_3">
+        <item>@string/deep_squat_3_action</item>
+        <item>@string/deep_squat_3_analysis</item>
+        <item>@string/deep_squat_3_target</item>
+        <item>@string/deep_squat_3_course</item>
+    </string-array>
+    <string-array name="ccm_deep_squat_content_4">
+        <item>@string/deep_squat_4_action</item>
+        <item>@string/deep_squat_4_analysis</item>
+        <item>@string/deep_squat_4_target</item>
+        <item>@string/deep_squat_4_course</item>
+    </string-array>
+    <string-array name="ccm_deep_squat_content_5">
+        <item>@string/deep_squat_5_action</item>
+        <item>@string/deep_squat_5_analysis</item>
+        <item>@string/deep_squat_5_target</item>
+        <item>@string/deep_squat_5_course</item>
+    </string-array>
+    <string-array name="ccm_deep_squat_content_6">
+        <item>@string/deep_squat_6_action</item>
+        <item>@string/deep_squat_6_analysis</item>
+        <item>@string/deep_squat_6_target</item>
+        <item>@string/deep_squat_6_course</item>
+    </string-array>
+    <string-array name="ccm_deep_squat_content_7">
+        <item>@string/deep_squat_7_action</item>
+        <item>@string/deep_squat_7_analysis</item>
+        <item>@string/deep_squat_7_target</item>
+        <item>@string/deep_squat_7_course</item>
+    </string-array>
+    <string-array name="ccm_deep_squat_content_8">
+        <item>@string/deep_squat_8_action</item>
+        <item>@string/deep_squat_8_analysis</item>
+        <item>@string/deep_squat_8_target</item>
+        <item>@string/deep_squat_8_course</item>
+    </string-array>
+    <string-array name="ccm_deep_squat_content_9">
+        <item>@string/deep_squat_9_action</item>
+        <item>@string/deep_squat_9_analysis</item>
+        <item>@string/deep_squat_9_target</item>
+        <item>@string/deep_squat_9_course</item>
+    </string-array>
+    <string-array name="ccm_deep_squat_content_10">
+        <item>@string/deep_squat_10_action</item>
+        <item>@string/deep_squat_10_analysis</item>
+        <item>@string/deep_squat_10_target</item>
+        <item>@string/deep_squat_10_course</item>
+    </string-array>
+
     <!-- 引体向上 -->
     <string-array name="ccm_pull_up_content_1">
         <item>@string/pull_up_1_action</item>
@@ -287,6 +349,130 @@
         <item>@string/leg_raise_10_analysis</item>
         <item>@string/leg_raise_10_target</item>
         <item>@string/leg_raise_10_course</item>
+    </string-array>
+
+    <!-- 桥 -->
+    <string-array name="ccm_bridge_content_1">
+        <item>@string/bridge_1_action</item>
+        <item>@string/bridge_1_analysis</item>
+        <item>@string/bridge_1_target</item>
+        <item>@string/bridge_1_course</item>
+    </string-array>
+    <string-array name="ccm_bridge_content_2">
+        <item>@string/bridge_2_action</item>
+        <item>@string/bridge_2_analysis</item>
+        <item>@string/bridge_2_target</item>
+        <item>@string/bridge_2_course</item>
+    </string-array>
+    <string-array name="ccm_bridge_content_3">
+        <item>@string/bridge_3_action</item>
+        <item>@string/bridge_3_analysis</item>
+        <item>@string/bridge_3_target</item>
+        <item>@string/bridge_3_course</item>
+    </string-array>
+    <string-array name="ccm_bridge_content_4">
+        <item>@string/bridge_4_action</item>
+        <item>@string/bridge_4_analysis</item>
+        <item>@string/bridge_4_target</item>
+        <item>@string/bridge_4_course</item>
+    </string-array>
+    <string-array name="ccm_bridge_content_5">
+        <item>@string/bridge_5_action</item>
+        <item>@string/bridge_5_analysis</item>
+        <item>@string/bridge_5_target</item>
+        <item>@string/bridge_5_course</item>
+    </string-array>
+    <string-array name="ccm_bridge_content_6">
+        <item>@string/bridge_6_action</item>
+        <item>@string/bridge_6_analysis</item>
+        <item>@string/bridge_6_target</item>
+        <item>@string/bridge_6_course</item>
+    </string-array>
+    <string-array name="ccm_bridge_content_7">
+        <item>@string/bridge_7_action</item>
+        <item>@string/bridge_7_analysis</item>
+        <item>@string/bridge_7_target</item>
+        <item>@string/bridge_7_course</item>
+    </string-array>
+    <string-array name="ccm_bridge_content_8">
+        <item>@string/bridge_8_action</item>
+        <item>@string/bridge_8_analysis</item>
+        <item>@string/bridge_8_target</item>
+        <item>@string/bridge_8_course</item>
+    </string-array>
+    <string-array name="ccm_bridge_content_9">
+        <item>@string/bridge_9_action</item>
+        <item>@string/bridge_9_analysis</item>
+        <item>@string/bridge_9_target</item>
+        <item>@string/bridge_9_course</item>
+    </string-array>
+    <string-array name="ccm_bridge_content_10">
+        <item>@string/bridge_10_action</item>
+        <item>@string/bridge_10_analysis</item>
+        <item>@string/bridge_10_target</item>
+        <item>@string/bridge_10_course</item>
+    </string-array>
+
+    <!-- 倒立撑 -->
+    <string-array name="ccm_on_hold_content_1">
+        <item>@string/on_hold_1_action</item>
+        <item>@string/on_hold_1_analysis</item>
+        <item>@string/on_hold_1_target</item>
+        <item>@string/on_hold_1_course</item>
+    </string-array>
+    <string-array name="ccm_on_hold_content_2">
+        <item>@string/on_hold_2_action</item>
+        <item>@string/on_hold_2_analysis</item>
+        <item>@string/on_hold_2_target</item>
+        <item>@string/on_hold_2_course</item>
+    </string-array>
+    <string-array name="ccm_on_hold_content_3">
+        <item>@string/on_hold_3_action</item>
+        <item>@string/on_hold_3_analysis</item>
+        <item>@string/on_hold_3_target</item>
+        <item>@string/on_hold_3_course</item>
+    </string-array>
+    <string-array name="ccm_on_hold_content_4">
+        <item>@string/on_hold_4_action</item>
+        <item>@string/on_hold_4_analysis</item>
+        <item>@string/on_hold_4_target</item>
+        <item>@string/on_hold_4_course</item>
+    </string-array>
+    <string-array name="ccm_on_hold_content_5">
+        <item>@string/on_hold_5_action</item>
+        <item>@string/on_hold_5_analysis</item>
+        <item>@string/on_hold_5_target</item>
+        <item>@string/on_hold_5_course</item>
+    </string-array>
+    <string-array name="ccm_on_hold_content_6">
+        <item>@string/on_hold_6_action</item>
+        <item>@string/on_hold_6_analysis</item>
+        <item>@string/on_hold_6_target</item>
+        <item>@string/on_hold_6_course</item>
+    </string-array>
+    <string-array name="ccm_on_hold_content_7">
+        <item>@string/on_hold_7_action</item>
+        <item>@string/on_hold_7_analysis</item>
+        <item>@string/on_hold_7_target</item>
+        <item>@string/on_hold_7_course</item>
+    </string-array>
+    <string-array name="ccm_on_hold_content_8">
+        <item>@string/on_hold_8_action</item>
+        <item>@string/on_hold_8_analysis</item>
+        <item>@string/on_hold_8_target</item>
+        <item>@string/on_hold_8_course</item>
+    </string-array>
+    <string-array name="ccm_on_hold_content_9">
+        <item>@string/on_hold_9_action</item>
+        <item>@string/on_hold_9_analysis</item>
+        <item>@string/on_hold_9_target</item>
+        <item>@string/on_hold_9_course</item>
+    </string-array>
+    <string-array name="ccm_on_hold_content_10">
+        <item>@string/on_hold_10_action</item>
+        <item>@string/on_hold_10_analysis</item>
+        <item>@string/on_hold_10_target</item>
+        <item>@string/on_hold_10_course</item>
     </string-array>
 
 </resources>
