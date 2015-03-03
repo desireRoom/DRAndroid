@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".TickingService"/>
+        <service android:name=".TickingService">
+            <intent-filter>
+                <action android:name="com.room.desire.ccm.action_REBUILD_AUDIO"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
