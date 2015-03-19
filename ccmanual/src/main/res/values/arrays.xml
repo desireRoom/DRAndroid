@@ -235,58 +235,58 @@
         <item>@string/pull_up_1_course</item>
     </string-array>
     <string-array name="ccm_pull_up_content_2">
-        <item>@string/pull_up_1_action</item>
-        <item>@string/pull_up_1_analysis</item>
-        <item>@string/pull_up_1_target</item>
-        <item>@string/pull_up_1_course</item>
+        <item>@string/pull_up_2_action</item>
+        <item>@string/pull_up_2_analysis</item>
+        <item>@string/pull_up_2_target</item>
+        <item>@string/pull_up_2_course</item>
     </string-array>
     <string-array name="ccm_pull_up_content_3">
-        <item>@string/pull_up_1_action</item>
-        <item>@string/pull_up_1_analysis</item>
-        <item>@string/pull_up_1_target</item>
-        <item>@string/pull_up_1_course</item>
+        <item>@string/pull_up_3_action</item>
+        <item>@string/pull_up_3_analysis</item>
+        <item>@string/pull_up_3_target</item>
+        <item>@string/pull_up_3_course</item>
     </string-array>
     <string-array name="ccm_pull_up_content_4">
-        <item>@string/pull_up_1_action</item>
-        <item>@string/pull_up_1_analysis</item>
-        <item>@string/pull_up_1_target</item>
-        <item>@string/pull_up_1_course</item>
+        <item>@string/pull_up_4_action</item>
+        <item>@string/pull_up_4_analysis</item>
+        <item>@string/pull_up_4_target</item>
+        <item>@string/pull_up_4_course</item>
     </string-array>
     <string-array name="ccm_pull_up_content_5">
-        <item>@string/pull_up_1_action</item>
-        <item>@string/pull_up_1_analysis</item>
-        <item>@string/pull_up_1_target</item>
-        <item>@string/pull_up_1_course</item>
+        <item>@string/pull_up_5_action</item>
+        <item>@string/pull_up_5_analysis</item>
+        <item>@string/pull_up_5_target</item>
+        <item>@string/pull_up_5_course</item>
     </string-array>
     <string-array name="ccm_pull_up_content_6">
-        <item>@string/pull_up_1_action</item>
-        <item>@string/pull_up_1_analysis</item>
-        <item>@string/pull_up_1_target</item>
-        <item>@string/pull_up_1_course</item>
+        <item>@string/pull_up_6_action</item>
+        <item>@string/pull_up_6_analysis</item>
+        <item>@string/pull_up_6_target</item>
+        <item>@string/pull_up_6_course</item>
     </string-array>
     <string-array name="ccm_pull_up_content_7">
-        <item>@string/pull_up_1_action</item>
-        <item>@string/pull_up_1_analysis</item>
-        <item>@string/pull_up_1_target</item>
-        <item>@string/pull_up_1_course</item>
+        <item>@string/pull_up_7_action</item>
+        <item>@string/pull_up_7_analysis</item>
+        <item>@string/pull_up_7_target</item>
+        <item>@string/pull_up_7_course</item>
     </string-array>
     <string-array name="ccm_pull_up_content_8">
-        <item>@string/pull_up_1_action</item>
-        <item>@string/pull_up_1_analysis</item>
-        <item>@string/pull_up_1_target</item>
-        <item>@string/pull_up_1_course</item>
+        <item>@string/pull_up_8_action</item>
+        <item>@string/pull_up_8_analysis</item>
+        <item>@string/pull_up_8_target</item>
+        <item>@string/pull_up_8_course</item>
     </string-array>
     <string-array name="ccm_pull_up_content_9">
-        <item>@string/pull_up_1_action</item>
-        <item>@string/pull_up_1_analysis</item>
-        <item>@string/pull_up_1_target</item>
-        <item>@string/pull_up_1_course</item>
+        <item>@string/pull_up_9_action</item>
+        <item>@string/pull_up_9_analysis</item>
+        <item>@string/pull_up_9_target</item>
+        <item>@string/pull_up_9_course</item>
     </string-array>
     <string-array name="ccm_pull_up_content_10">
-        <item>@string/pull_up_1_action</item>
-        <item>@string/pull_up_1_analysis</item>
-        <item>@string/pull_up_1_target</item>
-        <item>@string/pull_up_1_course</item>
+        <item>@string/pull_up_10_action</item>
+        <item>@string/pull_up_10_analysis</item>
+        <item>@string/pull_up_10_target</item>
+        <item>@string/pull_up_10_course</item>
     </string-array>
 
     <!-- 举腿 -->
